@@ -1,0 +1,32 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "test\\Contract.t.sol",
+    "id": 1634,
+    "exportedSymbols": {},
+    "nodeType": "SourceUnit",
+    "src": "40:22:9",
+    "nodes": [
+      {
+        "id": 1633,
+        "nodeType": "PragmaDirective",
+        "src": "40:22:9",
+        "literals": [
+          "solidity",
+          "0.8",
+          ".0"
+        ]
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 9
+}

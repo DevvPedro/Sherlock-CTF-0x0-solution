@@ -1,0 +1,118 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b70d2a6bffdac4bdd143f4bac91b31c04742ffd8370575e25ff2e390e26b4a7d64736f6c63430008000033",
+    "sourceMap": "101:50:21:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600080fdfea2646970667358221220b70d2a6bffdac4bdd143f4bac91b31c04742ffd8370575e25ff2e390e26b4a7d64736f6c63430008000033",
+    "sourceMap": "101:50:21:-:0;;;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "ast": {
+    "absolutePath": "src\\Attack.sol",
+    "id": 23928,
+    "exportedSymbols": {
+      "Attack": [
+        23927
+      ],
+      "Context": [
+        24845
+      ],
+      "ERC20": [
+        699
+      ],
+      "FloraToken": [
+        43174
+      ],
+      "IERC20": [
+        24923
+      ],
+      "IERC20Metadata": [
+        24948
+      ],
+      "Ownable": [
+        112
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "40:116:21",
+    "nodes": [
+      {
+        "id": 23922,
+        "nodeType": "PragmaDirective",
+        "src": "40:22:21",
+        "literals": [
+          "solidity",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 23923,
+        "nodeType": "ImportDirective",
+        "src": "66:31:21",
+        "absolutePath": "src/FloraToken.sol",
+        "file": "../src/FloraToken.sol",
+        "scope": 23928,
+        "sourceUnit": 43175,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 23927,
+        "nodeType": "ContractDefinition",
+        "src": "101:50:21",
+        "nodes": [
+          {
+            "id": 23926,
+            "nodeType": "VariableDeclaration",
+            "src": "126:21:21",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "floratoken",
+            "scope": 23927,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_FloraToken_$43174",
+              "typeString": "contract FloraToken"
+            },
+            "typeName": {
+              "id": 23925,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 23924,
+                "name": "FloraToken",
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 43174,
+                "src": "126:10:21"
+              },
+              "referencedDeclaration": 43174,
+              "src": "126:10:21",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_FloraToken_$43174",
+                "typeString": "contract FloraToken"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          23927
+        ],
+        "name": "Attack",
+        "scope": 23928
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 21
+}
